@@ -14,12 +14,66 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
 </head>
 
 <body>
-    <div class="settings">
+    <div class="settings" id="#settings">
         <div class="icon">
             <img src="./Images/cog.png" alt="">
+        </div>
+        <div class="settings-box">
+            <h3>Unlimited Colors</h3>
+            <ul>
+                <li>
+                    <button class="blue"></button>
+                </li>
+                <li>
+                    <button class="green"></button>
+
+                </li>
+                <li>
+                    <button class="orange"></button>
+
+                </li>
+                <li>
+                    <button class="pink"></button>
+
+                </li>
+                <li>
+                    <button class="sunrise"></button>
+                </li>
+                <li>
+                    <button class="white"></button>
+                </li>
+                <li>
+                    <button class="purple"></button>
+                </li>
+                <li>
+                    <button class="teal"></button>
+                </li>
+                <li>
+                    <button class="sea"></button>
+                </li>
+                <li>
+                    <button class="maroon"></button>
+                </li>
+                <li>
+                    <button class="army"></button>
+                </li>
+                <li>
+                    <button class="red"></button>
+                </li>
+            </ul>
+            <h3>Magic Cursor</h3>
+            <ul>
+                <li>
+                    <button class="circular"></button>
+                </li>
+                <li>
+                    <button class="classic"></button>
+                </li>
+            </ul>
         </div>
     </div>
     <div class="about-me-wrapper">
@@ -117,8 +171,17 @@
                     </div>
                 </div>
             </div>
+            <div class="contact-wrapper">
+                <h2>
+                    Get in touch
+                    <span>Contact</span>
+                </h2>
+                <form method="get">
+                    <input type="text" name="name" id="name" pattern="[A-Za-z]+" required placeholder="Name" />
+                    <input type="email" name="email" id="email" placeholder="Email" required />
+                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
